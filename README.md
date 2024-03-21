@@ -24,3 +24,13 @@ WAVEFFORM  :
 
 ![image](https://github.com/dhanasekarp03/RISCV/assets/126799964/89729d37-0e58-4ce3-a90e-6cffba85bf21)
 
+<!--How to Run the code in Questasim:
+1: git clone https://github.com/dhanasekarp03/RISCV.git
+
+2: To compile 
+     vlog PROCESSOR.v
+3: To Simulate 
+     vsim -c work.stimulus -->
+
+
+
