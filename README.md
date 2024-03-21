@@ -24,4 +24,5 @@ The processor executes the operation specified by the instruction.
 
 
 
- 
+ ![image](https://github.com/dhanasekarp03/RISCV/assets/126799964/719d567f-f8e9-47fe-90d3-ff032783f10c)
+
