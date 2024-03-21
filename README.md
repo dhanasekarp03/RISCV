@@ -1,6 +1,7 @@
 
 <p align=center> <img src="https://github.com/dhanasekarp03/RISCV/assets/126143349/43a843ce-8e66-469c-940e-b78e0dff8c06" width=60% height=100%>
 
+             Figure : RISCv PROCESSOR THAT PERFORMS ADD, SUB, LOGICAL OR, LOGICAL AND, XOR, SET LESS THAN
 
 
 
