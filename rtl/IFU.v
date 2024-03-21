@@ -10,7 +10,7 @@ module IFU(
 
     INST_MEM instr_mem(PC, reset, clock, Instruction_Code); // Instantiate Instruction Memory block
 
-    always @(posedge clock or posedge reset)
+    always @(posedge clock, posedge reset)
     begin
         if (reset == 1)
             PC <= 0; // Clear program counter on reset
