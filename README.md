@@ -1,3 +1,10 @@
+![image](https://github.com/dhanasekarp03/RISCV/assets/126143349/43a843ce-8e66-469c-940e-b78e0dff8c06)
+
+
+
+
+
+
 Designing a Processor using ALU unit to perform different operations by dividing it into different cycles.
 
 Firstly the program counter(PC) supplies the address of an instruction to be executed and points to the memory location where the next instruction is stored. 
