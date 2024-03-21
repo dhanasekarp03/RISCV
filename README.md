@@ -22,7 +22,7 @@ Execute Cycle:
 Operands are fetched from registers, memory, or the instruction itself.
 The processor executes the operation specified by the instruction.
 
+WAVEFFORM  :
 
-
- ![image](https://github.com/dhanasekarp03/RISCV/assets/126799964/719d567f-f8e9-47fe-90d3-ff032783f10c)
+![image](https://github.com/dhanasekarp03/RISCV/assets/126799964/89729d37-0e58-4ce3-a90e-6cffba85bf21)
 
