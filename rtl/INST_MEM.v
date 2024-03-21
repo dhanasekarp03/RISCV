@@ -4,7 +4,7 @@ module INST_MEM(
     output [31:0] Instruction_Code // Output instruction code
 );
 
-    reg [7:0] Memory [23:0]; // Byte addressable memory with 32 locations
+    reg [7:0] Memory [23:0]; // Byte addressable memory with 24 locations
 
     assign Instruction_Code = {Memory[PC+3], Memory[PC+2], Memory[PC+1], Memory[PC]};
 
