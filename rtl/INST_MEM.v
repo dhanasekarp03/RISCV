@@ -1,24 +1,16 @@
-/* 
-   Instruction memory takes in two inputs: A 32-bit Program counter and a 1-bit reset. 
-   The memory is initialized when reset is 1.
-   When reset is set to 0, Based on the value of PC, corresponding 32-bit Instruction code is output.
-*/
-
 module INST_MEM(
-    input [31:0] PC,
-    input reset,clock,
-    output [31:0] Instruction_Code
+    input [31:0] PC, // Program counter input
+    input reset, clock,
+    output [31:0] Instruction_Code // Output instruction code
 );
 
     reg [7:0] Memory [23:0]; // Byte addressable memory with 32 locations
 
-    // Under normal operation (reset = 0), we assign the instr. code, based on PC
     assign Instruction_Code = {Memory[PC+3], Memory[PC+2], Memory[PC+1], Memory[PC]};
 
-    // Initializing memory when reset is one
-  always @(posedge clock)
+    always @(posedge clock)
     begin
-      if (reset == 0)
+        if (reset == 0)
         begin
             // Setting 32-bit instruction: add t1, s0, s1 => 0x00940333 
             Memory[3] = 8'h00;
