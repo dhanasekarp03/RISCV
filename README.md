@@ -7,9 +7,7 @@ In this project we implemented a 32-bit, RISC-V ISA processor in verilog, that p
 
              Figure : RISCv PROCESSOR THAT PERFORMS ADD, SUB, LOGICAL OR, LOGICAL AND, XOR, SET LESS THAN
 
-
-
-
+This design divides the processor's operation into distinct cycles:
 
 Fetch Cycle:
 The Program Counter (PC) fetches the next instruction's memory address.
