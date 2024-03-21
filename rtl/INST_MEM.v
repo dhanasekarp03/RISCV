@@ -37,7 +37,7 @@ module INST_MEM(
             Memory[18] = 8'h7b;
             Memory[17] = 8'h4e;
             Memory[16] = 8'h33;
-            // Setting 32-bit instruction: slt t5, s10, s11 => 0x01bdaf33
+            // Setting 32-bit instruction: slt t5, s10, s11 => 0x01bd2f33
             Memory[23] = 8'h01;
             Memory[22] = 8'hbd;
             Memory[21] = 8'h2f;
