@@ -25,7 +25,7 @@ This design divides the processor's operation into distinct cycles:
 
 ## WAVEFORM  :
 
-![image](https://github.com/dhanasekarp03/RISCV/assets/126799964/89729d37-0e58-4ce3-a90e-6cffba85bf21)
+![image](https://github.com/dhanasekarp03/RISCV/assets/126799964/0e8e53b8-0c6b-4b43-9b2b-401dfe442787)
 
 ## How to Run the code in Questasim:
 
