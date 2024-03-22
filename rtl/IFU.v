@@ -14,12 +14,8 @@ module IFU(
     begin
         if (reset == 1)
             PC <= 0; // Clear program counter on reset
-        else if (count > 0)
-            PC <= PC + 4; // Increment program counter by 4
-        else
-        begin
-            PC <= PC; // Maintain program counter
-            count <= count + 1; // Increment count
+        else 
+            PC <= PC + 4; // Increment program counter by 4        
         end
     end
 
