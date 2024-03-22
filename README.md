@@ -30,10 +30,18 @@ This design divides the processor's operation into distinct cycles:
 1: git clone https://github.com/dhanasekarp03/RISCV.git
 
 2: To compile 
+
      vlog PROCESSOR.v
      
 3: To Simulate 
+
      vsim -c work.stimulus 
+
+## Tools used
+
+  EDA Playground
+  
+  Questasim
 
 ## Documents:
 
