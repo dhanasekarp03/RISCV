@@ -1,5 +1,6 @@
-**SIMPLE RISCV PROCESSOR**
+# SIMPLE RISCv PROCESSOR
 
+The RISC-V processor is an open-source instruction set architecture (ISA) based on reduced instruction set computing (RISC) principles.
 In this project we implemented a 32-bit, RISC-V ISA processor in verilog, that performs basic arithmetic,logical and comparison operation.
 
 
@@ -9,28 +10,38 @@ In this project we implemented a 32-bit, RISC-V ISA processor in verilog, that p
 
 This design divides the processor's operation into distinct cycles:
 
-Fetch Cycle:
-The Program Counter (PC) fetches the next instruction's memory address.
-The processor retrieves the instruction from memory and stores it in a special register.
+1. Fetch Cycle:
+   The Program Counter (PC) fetches the next instruction's memory address.
+   The processor retrieves the instruction from memory and stores it in a special register.
 
-Decode Cycle:
-The instruction is decoded to identify the operation to be performed and the involved operands.
+2. Decode Cycle:
+   The instruction is decoded to identify the operation to be performed and the involved operands.
 
-Execute Cycle:
-Operands are fetched from registers, memory, or the instruction itself.
-The processor executes the operation specified by the instruction.
+3. Execute Cycle:
+   Operands are fetched from registers, memory, or the instruction itself.
+   The processor executes the operation specified by the instruction.
 
-WAVEFFORM  :
+## WAVEFORM  :
 
 ![image](https://github.com/dhanasekarp03/RISCV/assets/126799964/89729d37-0e58-4ce3-a90e-6cffba85bf21)
 
-<!--How to Run the code in Questasim:
+## How to Run the code in Questasim:
+
 1: git clone https://github.com/dhanasekarp03/RISCV.git
 
 2: To compile 
      vlog PROCESSOR.v
+     
 3: To Simulate 
-     vsim -c work.stimulus -->
+     vsim -c work.stimulus 
+
+## Documents:
+
+Text book : http://home.ustc.edu.cn/~louwenqi/reference_books_tools/Computer%20Organization%20and%20Design%20RISC-V%20edition.pdf
+
+github repository : https://github.com/muneeb-mbytes/computerArchitectureCourse
+
+our work : https://github.com/dhanasekarp03/RISCV/wiki/RISC-V-Processor-Design
 
 
 
