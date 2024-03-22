@@ -1,5 +1,7 @@
 # SIMPLE RISCv PROCESSOR
 
+This is a simple RISCv Processor with a very small instruction set.
+
 The RISC-V processor is an open-source instruction set architecture (ISA) based on reduced instruction set computing (RISC) principles.
 In this project we implemented a 32-bit, RISC-V ISA processor in verilog, that performs basic arithmetic,logical and comparison operation.
 
