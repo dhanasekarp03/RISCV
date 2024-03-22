@@ -37,8 +37,12 @@ This design divides the processor's operation into distinct cycles:
      
 3: To Simulate 
 
-     vsim -c work.stimulus 
+     vsim -novopt work.stimulus -wlf waveform.wlf
 
+4: To view waveform
+
+     vsim -view waveform.wlf & 
+     
 ## Tools used
 
   EDA Playground
