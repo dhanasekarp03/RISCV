@@ -57,5 +57,8 @@ github repository : https://github.com/muneeb-mbytes/computerArchitectureCourse
 
 our work : https://github.com/dhanasekarp03/RISCV/wiki/RISC-V-Processor-Design
 
+## EDA link
+https://edaplayground.com/x/cYXt
+
 
 
